@@ -34,3 +34,5 @@ Test data (shown on the login page of the site): username `tomsmith`, password `
 Total: 22 test cases, 18 passed, 4 failed.
 
 Note: TC-L03 vs TC-L02 pass as written, but the different messages for unknown username and wrong password are a separate observation, see BUG-04.
+
+Note on screenshots: some cases end on the exact same page state, so their screenshots are identical files. After a failed login the site reloads the login page with cleared fields, so every case that ends with "Your username is invalid!" (TC-L03, TC-L04, TC-L06, TC-L07, TC-L09) has the same final screen, and the same goes for cases ending with "Your password is invalid!" (TC-L02, TC-L05, TC-L08). TC-F01, TC-F02 and TC-F03 all end on the same "Your e-mail's been sent!" confirmation page (that identical behaviour for empty and invalid emails is exactly what BUG-01 and BUG-02 report). Each file is a real capture from its own run; identical results mean identical pages, not reused files.
