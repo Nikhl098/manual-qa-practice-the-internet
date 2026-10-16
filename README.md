@@ -1,6 +1,6 @@
 # Manual QA Practice: The Internet (login, forms, UI controls)
 
-A practice test project on a public practice website: 22 test cases, execution results with screenshots, and 4 bug reports.
+A practice test project on a public practice website: 22 test cases, execution results with screenshots (cases that end on the same page state share identical captures - see the note in docs/TEST_CASES.md), and 4 bug reports.
 
 **Note:** This is a learning project. The site is [the-internet.herokuapp.com](https://the-internet.herokuapp.com), a public practice app made for testers. It is not client work.
 
