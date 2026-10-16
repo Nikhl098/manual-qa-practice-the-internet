@@ -1,0 +1,138 @@
+{
+ "run_on": "2026-10-15T18:38:14.487Z",
+ "site": "https://the-internet.herokuapp.com",
+ "results": [
+  {
+   "id": "TC-L01",
+   "actual": "/secure: \"You logged into a secure area!\"",
+   "result": "Pass",
+   "shot": "TC-L01.png"
+  },
+  {
+   "id": "TC-L12",
+   "actual": "/login: \"You logged out of the secure area!\"",
+   "result": "Pass",
+   "shot": ""
+  },
+  {
+   "id": "TC-L13",
+   "actual": "/login: \"You must login to view the secure area!\"",
+   "result": "Pass",
+   "shot": ""
+  },
+  {
+   "id": "TC-L02",
+   "actual": "/login: \"Your password is invalid!\"",
+   "result": "Pass",
+   "shot": "TC-L02.png"
+  },
+  {
+   "id": "TC-L03",
+   "actual": "/login: \"Your username is invalid!\"",
+   "result": "Pass",
+   "shot": "TC-L03.png"
+  },
+  {
+   "id": "TC-L04",
+   "actual": "/login: \"Your username is invalid!\"",
+   "result": "Fail",
+   "shot": "TC-L04.png"
+  },
+  {
+   "id": "TC-L05",
+   "actual": "/login: \"Your password is invalid!\"",
+   "result": "Fail",
+   "shot": "TC-L05.png"
+  },
+  {
+   "id": "TC-L06",
+   "actual": "/login: \"Your username is invalid!\"",
+   "result": "Pass",
+   "shot": "TC-L06.png"
+  },
+  {
+   "id": "TC-L07",
+   "actual": "/login: \"Your username is invalid!\"",
+   "result": "Pass",
+   "shot": "TC-L07.png"
+  },
+  {
+   "id": "TC-L08",
+   "actual": "/login: \"Your password is invalid!\"",
+   "result": "Pass",
+   "shot": "TC-L08.png"
+  },
+  {
+   "id": "TC-L09",
+   "actual": "/login: \"Your username is invalid!\"",
+   "result": "Pass",
+   "shot": "TC-L09.png"
+  },
+  {
+   "id": "TC-L10",
+   "actual": "password field type = password",
+   "result": "Pass",
+   "shot": ""
+  },
+  {
+   "id": "TC-L14",
+   "actual": "/secure",
+   "result": "Pass",
+   "shot": ""
+  },
+  {
+   "id": "TC-L11",
+   "actual": "/login: \"You must login to view the secure area!\"",
+   "result": "Pass",
+   "shot": ""
+  },
+  {
+   "id": "TC-F01",
+   "actual": "HTTP 200: \"Your e-mail's been sent!\"",
+   "result": "Pass",
+   "shot": "TC-F01.png"
+  },
+  {
+   "id": "TC-F02",
+   "actual": "HTTP 200: \"Your e-mail's been sent!\"",
+   "result": "Fail",
+   "shot": "TC-F02.png"
+  },
+  {
+   "id": "TC-F03",
+   "actual": "HTTP 200: \"Your e-mail's been sent!\"",
+   "result": "Fail",
+   "shot": "TC-F03.png"
+  },
+  {
+   "id": "TC-C01",
+   "actual": "before [false,true], after clicking both [true,false]",
+   "result": "Pass",
+   "shot": ""
+  },
+  {
+   "id": "TC-D01",
+   "actual": "options: Please select an option (disabled) | Option 1 | Option 2; selected: Option 2",
+   "result": "Pass",
+   "shot": ""
+  },
+  {
+   "id": "TC-D02",
+   "actual": "first option: Please select an option (disabled)",
+   "result": "Pass",
+   "shot": ""
+  },
+  {
+   "id": "TC-A01",
+   "actual": "after 3 adds: 3 Delete buttons, after 1 delete: 2",
+   "result": "Pass",
+   "shot": ""
+  },
+  {
+   "id": "TC-I01",
+   "actual": "typed \"abc\" into number field, value = \"\"",
+   "result": "Pass",
+   "shot": ""
+  }
+ ]
+}
